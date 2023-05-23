@@ -1,0 +1,21 @@
+{
+  "name": "joinme-theme",
+  "displayName": "Joinme Theme",
+  "description": "This is the best extension for cool programmer.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Joinme Theme",
+        "uiTheme": "vs",
+        "path": "./themes/Joinme Theme-color-theme.json"
+      }
+    ]
+  }
+}
